@@ -198,6 +198,9 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" image="MixRosePham"/>
+                                <connections>
+                                    <action selector="mixTapePlay:" destination="VGs-EW-W4F" eventType="touchUpInside" id="ycR-id-wb3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -262,9 +265,6 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" image="facebook"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="307" y="451" width="58" height="58"/>
-                                </variation>
                                 <connections>
                                     <action selector="facebookLink:" destination="aC3-rs-1Qf" eventType="touchUpInside" id="4hI-5b-HMt"/>
                                 </connections>
@@ -305,6 +305,7 @@
                                 <variation key="widthClass=compact" constant="37.5"/>
                             </constraint>
                             <constraint firstItem="pKc-vX-dSk" firstAttribute="top" secondItem="RBp-Hm-f8b" secondAttribute="bottom" constant="8" symbolic="YES" id="OGs-XG-mjP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fjq-4U-JJL" secondAttribute="trailing" constant="15" id="RBY-iy-Exb"/>
                             <constraint firstItem="ht5-tc-mVa" firstAttribute="leading" secondItem="HIe-LL-11z" secondAttribute="leadingMargin" constant="6" id="WRD-gt-60k"/>
                             <constraint firstItem="8yM-Fm-6Em" firstAttribute="top" secondItem="oAn-am-ZeU" secondAttribute="bottom" constant="91" id="WlR-2h-7us"/>
                             <constraint firstItem="pKc-vX-dSk" firstAttribute="centerX" secondItem="HIe-LL-11z" secondAttribute="centerX" id="adM-eN-828">
@@ -346,6 +347,7 @@
                                 <exclude reference="0bW-Dl-aV2"/>
                                 <exclude reference="2jt-SG-0eb"/>
                                 <exclude reference="FVE-pf-8pz"/>
+                                <exclude reference="RBY-iy-Exb"/>
                                 <exclude reference="fE1-IU-Nts"/>
                                 <exclude reference="WlR-2h-7us"/>
                                 <exclude reference="p3p-V8-YNl"/>
@@ -376,6 +378,7 @@
                                 <include reference="0bW-Dl-aV2"/>
                                 <include reference="2jt-SG-0eb"/>
                                 <include reference="FVE-pf-8pz"/>
+                                <include reference="RBY-iy-Exb"/>
                                 <include reference="fE1-IU-Nts"/>
                                 <include reference="WlR-2h-7us"/>
                                 <include reference="p3p-V8-YNl"/>

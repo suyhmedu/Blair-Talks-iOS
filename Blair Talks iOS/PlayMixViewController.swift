@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PlayMixViewController: UIViewController {
+    
+    var phamPlayer = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("pham", ofType: "wav")!))
+    var rosePlayer = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("rose", ofType: "wav")!))
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +25,16 @@ class PlayMixViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func mixTapePlay(sender: UIButton) {
+        
+        rosePlayer!.currentTime = 0
+        rosePlayer!.play()
+        rosePlayer!.currentTime = 0
+        rosePlayer!.play()
+        phamPlayer!.currentTime = 0
+        phamPlayer!.play()
+    
+    }
 
     /*
     // MARK: - Navigation

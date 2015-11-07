@@ -28,7 +28,7 @@
 		7B2C04911B3FBD3E006FA046 /* fowler.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C048C1B3FBD3E006FA046 /* fowler.wav */; };
 		7B2C04921B3FBD3E006FA046 /* giles.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C048D1B3FBD3E006FA046 /* giles.wav */; };
 		7B2C04931B3FBD3E006FA046 /* ostrander.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C048E1B3FBD3E006FA046 /* ostrander.wav */; };
-		FB13BAA01BED619100D209BD /* paul.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB13BA9F1BED619100D209BD /* paul.wav */; settings = {ASSET_TAGS = (); }; };
+		FB13BAA01BED619100D209BD /* paul.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB13BA9F1BED619100D209BD /* paul.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,7 +211,7 @@
 				TargetAttributes = {
 					7B2C04501B3F926E006FA046 = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = 8V7W9DJD8T;
+						DevelopmentTeam = FGFTX6V73N;
 					};
 					7B2C04651B3F926E006FA046 = {
 						CreatedOnToolsVersion = 6.3.2;

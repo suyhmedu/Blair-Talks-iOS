@@ -73,19 +73,32 @@ class PlayQuotesViewController: UIViewController {
         streetPlayer!.currentTime = 0
         streetPlayer!.play()
     }
+    @IBAction func piperPlay(sender: UIButton) {
+        piperPlayer!.currentTime = 0
+        piperPlayer!.play()
+    }
+    @IBAction func duvalPlay(sender: UIButton) {
+        duvalPlayer!.currentTime = 0
+        duvalPlayer!.play()
+    }
+    @IBAction func dvorskyPlay(sender: UIButton) {
+        dvorskyPlayer!.currentTime = 0
+        dvorskyPlayer!.play()
+    }
+    
     
     @IBAction func stopButton(sender: UIButton) {
         phamPlayer!.stop()
         paulPlayer!.stop()
         gilesPlayer!.stop()
         streetPlayer!.stop()
-        ////        duvalPlayer.stop()
+        duvalPlayer!.stop()
         fowlerPlayer!.stop()
         steinPlayer!.stop()
         rosePlayer!.stop()
-        ////        piperPlayer.stop()
+        piperPlayer!.stop()
         ostranderPlayer!.stop()
-        ////        dvorskyPlayer.stop()
+        dvorskyPlayer!.stop()
         schaferPlayer!.stop()
     }
 

@@ -466,23 +466,32 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYV-07-HdA">
                                 <rect key="frame" x="21" y="432" width="100" height="100"/>
                                 <animations/>
-                                <state key="normal" image="Pham">
+                                <state key="normal" image="Piper">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="piperPlay:" destination="MOR-7C-z5C" eventType="touchUpInside" id="jA0-Yv-fvl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WP0-oG-UVJ">
                                 <rect key="frame" x="247" y="432" width="100" height="100"/>
                                 <animations/>
-                                <state key="normal" image="Giles">
+                                <state key="normal" image="Duval">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="duvalPlay:" destination="MOR-7C-z5C" eventType="touchUpInside" id="PLA-Sj-RMU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrH-UY-ufL">
                                 <rect key="frame" x="479" y="432" width="100" height="100"/>
                                 <animations/>
-                                <state key="normal" image="Fowler">
+                                <state key="normal" image="Dvorsky">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="dvorskyPlay:" destination="MOR-7C-z5C" eventType="touchUpInside" id="Z7Y-Zu-qxT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zll-LU-PD8">
                                 <rect key="frame" x="21" y="72" width="100" height="100"/>
@@ -739,6 +748,8 @@
     </scenes>
     <resources>
         <image name="Blair Talks" width="170" height="170"/>
+        <image name="Duval" width="100" height="100"/>
+        <image name="Dvorsky" width="100" height="100"/>
         <image name="Fowler" width="100" height="100"/>
         <image name="Giles" width="100" height="100"/>
         <image name="MIx" width="100" height="100"/>
@@ -746,6 +757,7 @@
         <image name="Ostrander" width="100" height="100"/>
         <image name="Paul" width="100" height="100"/>
         <image name="Pham" width="100" height="100"/>
+        <image name="Piper" width="100" height="100"/>
         <image name="Quotes" width="100" height="100"/>
         <image name="Rose" width="100" height="100"/>
         <image name="Schafer" width="100" height="100"/>

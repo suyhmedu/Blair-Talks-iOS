@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Blair Talks iOS/PlayQuotesViewController.swift"
-            timestampString = "467958330.581043"
+            timestampString = "468557657.194454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "PlayQuotesViewController"
             landmarkType = "3">
          </BreakpointContent>
